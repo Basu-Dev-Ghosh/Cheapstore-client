@@ -4,8 +4,10 @@ import { Routes, Route } from 'react-router-dom'
 import routes from './pages/router'
 
 
-export const chatServer = "https://cheapstoore.herokuapp.com/";
-export const serverAPI = "https://cheapstoore.herokuapp.com/api";
+export const chatServer = "https://cheapstore-server.onrender.com/";
+export const serverAPI = "https://cheapstore-server.onrender.com/api";
+// export const chatServer = "http://localhost:4000/";
+// export const serverAPI = "http://localhost:4000/api";
 
 function App() {
 
